@@ -1,5 +1,13 @@
 # project-1
 
+## Potential User Story
+
+> AS A Music Lover
+>
+> I WANT to search for lyrics to music I remember
+>
+> SO THAT I can find what some has been stuck into my head
+
 ## VS Code Add-in
 
 If you can be sure to have the following add-ins installed
