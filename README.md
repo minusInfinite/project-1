@@ -1,4 +1,4 @@
-# project-1
+# Project 1 - Team Yellow - "Lyric in your head"
 
 ## Potential User Story
 
@@ -10,14 +10,32 @@
 
 ## Potential Acceptance Criteria
 
->GIVEN I am using a song search website
->WHEN I open the website
->THEN I am met with a search bar
->WHEN I type in the song lyrics
->THEN I am met with autocomplete options
->WHEN I click the search button
->THEN I am met with the songs that contain these lyrics
->WHEN I
+> GIVEN I am using a song search website
+>
+> WHEN I open the website
+>
+> THEN I am met with a search bar
+>
+> WHEN I type in the song lyrics
+>
+> THEN I am met with autocomplete options
+>
+> WHEN I click the search button
+>
+> THEN I am met with the songs that contain these lyrics and links to music videos that I can play. 
+
+# TO-DO
+
+- [ ] APIs
+- [x] CSS Library 
+- [ ] Acceptance Criteria
+
+## API Used
+GENIUS via Rapid API - https://rapidapi.com/brianiswu/api/genius/
+YouTube search?
+
+## CSS Library 
+Bulma.io - https://bulma.io/
 
 ## VS Code Add-in
 
@@ -35,14 +53,3 @@ Debugger for Chrome - https://marketplace.visualstudio.com/items?itemName=msjsdi
 
 Debugger for Firefox - https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
 
-## Enable VS Code IntelliSense prompts for JQuery and other Modules
-
-Add a .jsconfig to you project and add the following
-
-```JSON
-    "typeAcquisition": {
-        "include": [
-            "jquery",
-        ]
-    }
-```
