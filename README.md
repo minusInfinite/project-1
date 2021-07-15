@@ -8,6 +8,17 @@
 >
 > SO THAT I can find what some has been stuck into my head
 
+## Potential Acceptance Criteria
+
+>GIVEN I am using a song search website
+>WHEN I open the website
+>THEN I am met with a search bar
+>WHEN I type in the song lyrics
+>THEN I am met with autocomplete options
+>WHEN I click the search button
+>THEN I am met with the songs that contain these lyrics
+>WHEN I
+
 ## VS Code Add-in
 
 If you can be sure to have the following add-ins installed
