@@ -26,15 +26,17 @@
 
 # TO-DO
 
-- [ ] APIs
+- [X] APIs
 - [x] CSS Library 
-- [ ] Acceptance Criteria
+- [X] User Story and Acceptance Criteria
+- [ ] Responsive UI with CSS Framework
+- [ ] Initial Scripting, Varible and Function definitions
 
 ## API Used
 GENIUS via Rapid API - https://rapidapi.com/brianiswu/api/genius/
-YouTube search?
+YouTube search - https://developers.google.com/youtube/v3/getting-started
 
-## CSS Library 
+## CSS Framework
 Bulma.io - https://bulma.io/
 
 ## VS Code Add-in
