@@ -22,19 +22,23 @@
 >
 > WHEN I click the search button
 >
-> THEN I am met with the songs that contain these lyrics and links to music videos that I can play. 
+> THEN I am met with the songs that contain these lyrics and links to music videos that I can play.
 
 # TO-DO
 
-- [ ] APIs
-- [x] CSS Library 
-- [ ] Acceptance Criteria
+-   [x] APIs
+-   [x] CSS Library
+-   [x] User Story and Acceptance Criteria
+-   [ ] Responsive UI with CSS Framework
+-   [ ] Initial Scripting, Varible and Function definitions
 
 ## API Used
-GENIUS via Rapid API - https://rapidapi.com/brianiswu/api/genius/
-YouTube search?
 
-## CSS Library 
+GENIUS via Rapid API - https://rapidapi.com/brianiswu/api/genius/
+YouTube search - https://developers.google.com/youtube/v3/getting-started
+
+## CSS Framework
+
 Bulma.io - https://bulma.io/
 
 ## VS Code Add-in
@@ -53,3 +57,4 @@ Debugger for Chrome - https://marketplace.visualstudio.com/items?itemName=msjsdi
 
 Debugger for Firefox - https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
 
+{"mode":"full","isActive":false}
