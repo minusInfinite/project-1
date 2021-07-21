@@ -1,12 +1,22 @@
-.login {
-    position: absolute;
-    display: block;
-    width: 5rem;
-    height: 5rem;
-    top: 5vh;
-    right: 2vw;
-    border-radius: 50%;
-    background-image: url("../img/https___images.genius.com_2a186f15f137ffa0d4b6bc3cd6034787.680x680x1.png");
-    background-position: center;
-    background-size: contain;
+:root {
+    --gradient: linear-gradient(
+        45deg,
+        #ffb3ba,
+        #ffdfba,
+        #ffffba,
+        #baffc9,
+        #bae1ff
+    );
+    --mainCol: color: #642329;
+}
+
+body {
+    min-width: 98vw;
+    min-height: 100vh;
+    background: var(--gradient);
+    color: var(--mainCol)
+}
+
+section {
+    height: 100vh !important;
 }
