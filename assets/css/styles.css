@@ -10,13 +10,55 @@
     --mainCol: color: #642329;
 }
 
+
+html,
 body {
-    min-width: 98vw;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
     background: var(--gradient);
     color: var(--mainCol)
 }
 
-section {
-    height: 100vh !important;
+#results image {
+    width: 50%;
+    height: 50%;
 }
+
+.product {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    background-color: #d8d6d6;
+    height: 250px;
+    border-radius: 25px;
+    border-top: 20px solid #bae1ff;
+    border-bottom: 20px solid #ffb3ba;
+    box-sizing: border-box;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    background-size: 20px 100%;
+    background: var(--gradient)
+  }
+  
+  .modal-content p {
+      align-self: center;
+      text-align: center;
+      font-weight: 600;
+  }
+  
+  #close-btn:hover {
+      background-color: red;
+      color: white;
+    }
+  
+  #mymodal {
+      display: none;
+  }

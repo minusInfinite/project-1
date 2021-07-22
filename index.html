@@ -9,32 +9,52 @@
             href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
         />
         <link rel="stylesheet" href="./assets/css/styles.css" />
-        <title>Music in your Mind</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://apis.google.com/js/api.js"></script>
+        <title>Music on your Mind</title>
     </head>
     <body>
         <section class="hero is-fullheight">
             <div class="hero-body is-justify-content-center">
-                <div class="">
-                    <label for="lyric" class="title is-white"
-                        >Music in your Mind?</label
-                    >
-                    <input
-                        class="input mt-1"
-                        type="text"
-                        name="lyric"
-                        id="lyric"
-                        placeholder="Find that music here"
-                    />
+                <div class="content">
+                    <h1 class="is-size-1 product">ShazTXT 🎵︁</h1>
+                    <form id="search-form">
+                        <label for="lyric-input" class="title"
+                            >Music on your Mind?</label
+                        >
+                        <input
+                            class="input mt-1"
+                            type="text"
+                            name="lyric"
+                            id="lyric-input"
+                            placeholder="Find that music here"
+                        />
 
-                    <input
-                        class="button is-fullwidth is-primary mt-1"
-                        type="submit"
-                        value="Lyric Search"
-                    />
+                        <input
+                            class="button is-fullwidth is-primary mt-1"
+                            type="submit"
+                            value="Lyric Search"
+                        />
+                    </form>
                 </div>
+            </div>
+            <div class="modal" id="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content has-text-centered">
+                    <p id="message"></p>
+                </div>
+                <button
+                    class="modal-close is-large"
+                    id="close-btn"
+                    aria-label="close"
+                ></button>
             </div>
         </section>
     </body>
-    <script src="https://apis.google.com/js/api.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/search.js"></script>
 </html>
