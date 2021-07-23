@@ -26,15 +26,15 @@
 
 # TO-DO
 
--   [x] APIs
--   [x] CSS Library
--   [x] User Story and Acceptance Criteria
--   [ ] Responsive UI with CSS Framework
--   [ ] Initial Scripting, Varible and Function definitions
+- [X] APIs
+- [x] CSS Library 
+- [X] User Story and Acceptance Criteria
+- [X] Responsive UI with CSS Framework
+- [X] Initial Scripting, Varible and Function definitions
 
 ## API Used
 
-GENIUS via Rapid API - https://rapidapi.com/brianiswu/api/genius/
+GENIUS - https://docs.genius.com/
 YouTube search - https://developers.google.com/youtube/v3/getting-started
 
 ## CSS Framework
