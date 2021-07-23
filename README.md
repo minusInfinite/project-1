@@ -6,7 +6,7 @@
 >
 > I WANT to search for lyrics to music I remember
 >
-> SO THAT I can find what some has been stuck into my head
+> SO THAT I can find the name and tune to the song repeating in my head
 
 ## Acceptance Criteria
 
@@ -24,13 +24,13 @@
 >
 > THEN I am met with the songs that contain these lyrics and links to music videos that I can play.
 
-# TO-DO
+## TO-DO
 
-- [X] APIs
-- [x] CSS Library 
-- [X] User Story and Acceptance Criteria
-- [X] Responsive UI with CSS Framework
-- [X] Initial Scripting, Varible and Function definitions
+- [x] APIs
+- [x] CSS Library
+- [x] User Story and Acceptance Criteria
+- [x] Responsive UI with CSS Framework
+- [x] Initial Scripting, Varible and Function definitions
 
 ## API Used
 
