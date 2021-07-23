@@ -33,6 +33,7 @@ Live Demo - https://www.minusinfinite.id.au/shaztxt/
 - [x] User Story and Acceptance Criteria
 - [x] Responsive UI with CSS Framework
 - [x] Initial Scripting, Varible and Function definitions
+- [ ] Improve Documentation and add a demo GIF
 
 ## API Used
 
