@@ -10,6 +10,9 @@
         />
         <link rel="stylesheet" href="./assets/css/styles.css" />
         <script src="https://apis.google.com/js/api.js"></script>
+        <script>
+            gapi.load("client")
+        </script>
         <title>Music in your Mind</title>
     </head>
     <body>
@@ -34,24 +37,17 @@
                 </main>
             </div>
         </div>
-
-        <!-- <div class="tile is-child box">
-                            <h2 class="title">
-                                <a
-                                    href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ"
-                                    >Bohemian Rhapsody by Queen</a
-                                >
-                            </h2>
-                            <img
-                                src="https://images.genius.com/ff9ddef65ab95da61354ce587748e2e9.600x600x1.png"
-                            />
-                        </div>
-                        <div class="tile is-child box">
-                            <p>Bohemian Rhapsody by Queen</p>
-                        </div>
-                        <div class="tile is-child box">
-                            <p>Bohemian Rhapsody by Queen</p>
-                        </div> -->
+        <div class="modal" id="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content has-text-centered">
+                <p id="message"></p>
+            </div>
+            <button
+                class="modal-close is-large"
+                id="close-btn"
+                aria-label="close"
+            ></button>
+        </div>
     </body>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/output.js"></script>
 </html>
