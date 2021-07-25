@@ -1,37 +1,46 @@
-# project-1
+# Project 1 - Team Yellow - "ShazTXT"
 
-## Potential User Story
+Live Demo - https://www.minusinfinite.id.au/shaztxt/
+
+## User Story
 
 > AS A Music Lover
 >
 > I WANT to search for lyrics to music I remember
 >
-> SO THAT I can find what some has been stuck into my head
+> SO THAT I can find the name and tune to the song repeating in my head
 
-## VS Code Add-in
+## Acceptance Criteria
 
-If you can be sure to have the following add-ins installed
+> GIVEN I am using a song search website
+>
+> WHEN I open the website
+>
+> THEN I am met with a search bar
+>
+> WHEN I type in the song lyrics
+>
+> THEN I am met with autocomplete options
+>
+> WHEN I click the search button
+>
+> THEN I am met with the songs that contain these lyrics and links to music videos that I can play.
 
-ESLint - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+## TO-DO
 
-Prettier - Code formatter - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+- [x] APIs
+- [x] CSS Library
+- [x] User Story and Acceptance Criteria
+- [x] Responsive UI with CSS Framework
+- [x] Initial Scripting, Varible and Function definitions
+- [ ] Improve Documentation and add a demo GIF
 
-## Others of note that might be useful
+## API Used
 
-IntelliSense for CSS class names in HTML - https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion
+GENIUS - https://docs.genius.com/
 
-Debugger for Chrome - https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+YouTube search - https://developers.google.com/youtube/v3/getting-started
 
-Debugger for Firefox - https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
+## CSS Framework
 
-## Enable VS Code IntelliSense prompts for JQuery and other Modules
-
-Add a .jsconfig to you project and add the following
-
-```JSON
-    "typeAcquisition": {
-        "include": [
-            "jquery",
-        ]
-    }
-```
+Bulma.io - https://bulma.io/
