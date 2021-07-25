@@ -1,6 +1,7 @@
 # Project 1 - Team Yellow - "ShazTXT"
 
 Live Demo - <https://www.minusinfinite.id.au/shaztxt/>
+
 ![Animated Demo of the deployed project](https://imgur.com/62ONp9z.gif)
 
 ## User Story
