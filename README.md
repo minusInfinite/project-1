@@ -1,6 +1,7 @@
 # Project 1 - Team Yellow - "ShazTXT"
 
-Live Demo - https://www.minusinfinite.id.au/shaztxt/
+Live Demo - <https://www.minusinfinite.id.au/shaztxt/>
+![Animated Demo of the deployed project](https://imgur.com/62ONp9z.gif)
 
 ## User Story
 
@@ -33,14 +34,26 @@ Live Demo - https://www.minusinfinite.id.au/shaztxt/
 - [x] User Story and Acceptance Criteria
 - [x] Responsive UI with CSS Framework
 - [x] Initial Scripting, Varible and Function definitions
-- [ ] Improve Documentation and add a demo GIF
+- [x] Improve Documentation and add a demo GIF
 
 ## API Used
 
-GENIUS - https://docs.genius.com/
+GENIUS - <https://docs.genius.com/>
 
-YouTube search - https://developers.google.com/youtube/v3/getting-started
+YouTube search - <https://developers.google.com/youtube/v3/getting-started>
+
+Google API Javascript Client - <https://github.com/google/google-api-javascript-client>
 
 ## CSS Framework
 
-Bulma.io - https://bulma.io/
+Bulma CSS - <https://bulma.io/>
+
+## Contributors
+
+@minusInfinite
+
+@BSchumann15
+
+@kellybombardieri
+
+@vikezme
