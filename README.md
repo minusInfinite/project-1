@@ -2,7 +2,7 @@
 
 Live Demo - <https://www.minusinfinite.id.au/shaztxt/>
 
-![Animated Demo of the project](https://i.imgur.com/1HTVAvv.gif)
+![Animated Demo of the project](https://i.imgur.com/0OHJHdi.gif)
 
 ## User Story
 
